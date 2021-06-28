@@ -31,7 +31,7 @@ header{
 }
 
 img{
-    width: 400px;
+    max-width: 250px;
 }
 
 .innerDiv{
@@ -39,8 +39,9 @@ img{
     margin-top: 40px;
     /* border: 1px solid rgba(68, 68, 68,0.5); */
     box-shadow: 2px 3px 10px rgba(128, 128, 128, 0.516);
-    height: 300px;
-    padding: 10px 20px;
+    /* height: 300px; */
+    padding: 30px 20px;
+    
     
 }
 .blue{
@@ -81,8 +82,8 @@ img{
 }
 
 .innerDiv button{
-    width: 40%;
-    height: 10%;
+    width: 160px;
+    height: 30px;
     display: block;
     margin: auto;
     border: none;
