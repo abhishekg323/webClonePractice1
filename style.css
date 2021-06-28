@@ -1,0 +1,113 @@
+body{
+    margin: auto;
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 580px;
+    background-color: aliceblue;
+}
+h1{
+    font-size: 1.5em;
+
+}
+h2{
+    font-weight: 400;
+}
+header{
+    
+    position: relative;
+    
+}
+.menuIcon{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.menuIcon .dash{
+    width:25px;
+    margin-top: 4px;
+    background-color: black;
+    height: 5px;
+}
+
+img{
+    width: 400px;
+}
+
+.innerDiv{
+    background-color: #fff;
+    margin-top: 40px;
+    /* border: 1px solid rgba(68, 68, 68,0.5); */
+    box-shadow: 2px 3px 10px rgba(128, 128, 128, 0.516);
+    height: 300px;
+    padding: 10px 20px;
+    
+}
+.blue{
+    border-top: 5px solid rgb(34, 128, 235);
+    color: rgb(34, 128, 235);
+}
+.innerDiv p{
+    color: black;
+    line-height: 25px;
+}
+
+.brown{
+    border-top: 5px solid brown;
+    color: brown;
+}
+
+.green{
+    border-top: 5px solid rgb(32, 209, 32);
+    color: rgb(32, 209, 32);
+}
+.red{
+    border-top: 5px solid red;
+    color: red;
+}
+.footer{
+    background-color: #3f73b9;
+    color: #fff;
+}
+.footer p{
+    color: #fff;
+}
+
+.end{
+    color: rgb(138, 138, 138);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.innerDiv button{
+    width: 40%;
+    height: 10%;
+    display: block;
+    margin: auto;
+    border: none;
+    color: #fff;
+    box-sizing: border-box;
+    transition: transform 0.2s ease-in-out;
+}
+
+.innerDiv button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.red button{
+    background-color: red;
+}
+
+.green button{
+    background-color: rgb(32, 209, 32);
+}
+
+.brown button{
+    background-color: brown;
+}
+
+.blue button{
+    background-color: rgb(34, 128, 235);
+}
